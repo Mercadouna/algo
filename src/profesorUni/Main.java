@@ -21,7 +21,7 @@ public class Main {
 	}
 
 	static boolean isValidEmail(String email) {
-		public static final String EMAIL_REGEX = "^[a-zA-Z0-9_+.-]+@[a-zA-Z0-9.-]+$";
+		String EMAIL_REGEX = "^[a-zA-Z0-9_+.-]+@[a-zA-Z0-9.-]+$";
         Pattern pattern = Pattern.compile(EMAIL_REGEX);
         Matcher matcher = pattern.matcher(email);
         return matcher.matches();
@@ -50,7 +50,7 @@ public class Main {
 		
 		System.out.println("introduce el email: ");
 		nombre = teclado.next();
-		if (=true) {}
+		
 
 	
 
